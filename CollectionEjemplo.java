@@ -19,41 +19,40 @@ public class CollectionEjemplo {
      */
     public static void main(String[] args) {
         
-        // Create a collection using ArrayList
+        // Para crear una collection usamos ArrayList
         Collection<String> collection = new ArrayList<>();{
 
-        // Add elements to the collection
+        // Agregar elementos a la collection
         collection.add("Apple");
         collection.add("Banana");
         collection.add("Cherry");
 
-        // Display the collection
+        // Para mostrar la collection
         System.out.println("Collection: " + collection);
 
-        // Check if the collection contains a specific element
+        // Para verificar si un elemento especifico existe (o no) en la collection
         boolean hasBanana = collection.contains("Banana");
         System.out.println("Contains Banana? " + hasBanana);
 
-        // Remove an element from the collection
+        // Para remover un elemento especifico de la collection
         collection.remove("Banana");
         System.out.println("After removing Banana: " + collection);
 
-        // Get the size of the collection
+        // Para obtener el tamaño de la colecction (Cantidad de elementos)
         int size = collection.size();
         System.out.println("Size of collection: " + size);
 
-        // Check if the collection is empty
+        // Para verificar si la collection esta vacia (o no)
         boolean isEmpty = collection.isEmpty();
         System.out.println("Is collection empty? " + isEmpty);
 
-        // Clear the collection
+        // Para borrar todos los elementos de una collection y dejarla vacia
         collection.clear();
         System.out.println("After clearing: " + collection);
         System.out.println("Is collection empty now? " + collection.isEmpty());
     }
 }
 
-        // TODO code application logic here
-    }
+}
     
 

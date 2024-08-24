@@ -1,3 +1,4 @@
+Integrantes de FORO 1 POO
 # Maria Jose Custodio Vasquez CV242178
 # Jennifer Patricia Zaldaña Beltran ZB212784
 # Rolando Giovanni Guevara Martir GM202436
